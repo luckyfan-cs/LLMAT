@@ -1,0 +1,6 @@
+transformers>=4.28.1
+ml_collections
+fschat>=0.2.20
+response_json {'code': 10000, 'msg': 'json: cannot unmarshal array into Go struct field Message.messages.content of type string'}
+
+watch -n 0.1 -d gpustat -p
